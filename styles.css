@@ -8,6 +8,10 @@ body {
     color: #66ff00;
 }
 
+.u {
+    animation: animation1 3s infinite;
+}
+
 h1 {
     float:left;
     padding-top: 15px;
