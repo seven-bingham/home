@@ -1,30 +1,46 @@
+* {
+    font-family: "Roboto";
+    margin: 0px;
+}
+
 body {
-  text-align: center;
-  color: yellow;
-    background: linear-gradient(270deg, #5a2466, #f2eef3, #010002);
-    background-size: 600% 600%;
+    background-color: #151621;
+    color: #66ff00;
+}
 
-    -webkit-animation: AnimationName 32s ease infinite;
-    -moz-animation: AnimationName 32s ease infinite;
-    animation: AnimationName 32s ease infinite;
+h1 {
+    float:left;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
 
+a {
+    color: #66ff00;
+    text-decoration: none;
+}
 
+.topnav a {
+    float: right;
+    padding-top: 25px;
+    text-align: center;
+    color: #66ff00;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-div {
-  background-color: black
+
+.topnav a.active {
+    color: white;
 }
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+
+.topnav a:hover {
+    color: white;
+    transition: 1s;
 }
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+
+header {
+    margin: 0px;
+    padding:10px
 }
