@@ -44,3 +44,12 @@ header {
     margin: 0px;
     padding:10px
 }
+@keyframes animation1 {
+    0%{
+        color: green;
+    }50%{
+        color: yellow;
+    }100%{
+        color: green;
+    }
+}
